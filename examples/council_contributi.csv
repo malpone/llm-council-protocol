@@ -1,0 +1,11 @@
+council_id,giro,modello,idea,funzione,tipo,materiale,verifica,evidenza,proposta_orchestratore,decisione,rivalutata,testo,cambio_posizione
+C001,1,GPT,formato-file,verifica,errore,si,confermato,src/export.py:41,n/a,n/a,,Il formato Parquet citato nel testo non e usato nel codice,
+C001,1,Gemini,formato-file,verifica,errore,si,confermato,src/export.py:41,n/a,n/a,,Il formato Parquet citato nel testo non e usato nel codice,
+C001,1,Gemini,numero-tabelle,verifica,errore,si,confermato,data/curated (15 file),n/a,n/a,,Le tabelle sono 15 e non 12,
+C001,1,Claude,formato-file,verifica,errore,si,confermato,src/export.py:41,n/a,n/a,,Il formato Parquet citato nel testo non e usato nel codice,
+C001,1,GPT,togliere-numeri,scrittura,proposta,no,n/a,,scartare,scartata,,Togliere tutti i numeri dal post,
+C001,1,Gemini,nuova-apertura,scrittura,proposta,no,n/a,,adottare,adottata,,Aprire con un caso concreto,
+C002,1,GPT,architettura-a,strategia,proposta,si,n/a,,adottare,adottata_con_modifiche,,Scegliere l'architettura A con una migrazione per fasi,
+C002,1,Gemini,architettura-b,strategia,proposta,si,n/a,,scartare,scartata,,Scegliere l'architettura B,
+C002,1,Claude,architettura-a,strategia,proposta,si,n/a,,adottare,adottata_con_modifiche,,Scegliere l'architettura A con una migrazione per fasi,
+C002,2,Gemini,architettura-b,strategia,proposta,si,n/a,,scartare,scartata,,Resta su B,senza_evidenza

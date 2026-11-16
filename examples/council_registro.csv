@@ -1,0 +1,3 @@
+id,data,titolo,area,modalita,difficolta,minuti_decisore,minuti_fonte,giri,modelli,canali,versione_approvata,data_riscontro,esito,nota
+C001,2026-01-10,ESEMPIO SINTETICO: verifica di un post pubblico,Contenuti pubblici,V,2,9,stimato,2,GPT;Gemini;Claude,GPT=app;Gemini=app,v3,,,Dati inventati per mostrare il formato
+C002,2026-01-12,ESEMPIO SINTETICO: scelta tra due architetture dati,Prodotto e tecnica,D,3,22,misurato,2,GPT;Gemini;Claude,GPT=app+web;Gemini=cli,v2,2026-02-12,,Dati inventati per mostrare il formato
